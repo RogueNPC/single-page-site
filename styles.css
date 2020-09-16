@@ -1,0 +1,225 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    margin: 0;
+    background-color: #425462;
+}
+
+nav, main > section {
+    overflow: auto;
+}
+
+main > section {
+    min-height: 100vh;
+}
+
+#nav {
+    justify-content: center;
+    align-items: baseline;
+    padding: 1em;
+    background-color: #425462;
+    color: #eee;
+    display: flex;
+}
+
+nav h1, ul {
+    margin: 0
+}
+
+nav a {
+    text-decoration: none;
+    color: #eee;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul a {
+    padding: 1em;
+    color: peachpuff;
+}
+
+nav ul a:hover {
+    color: #b9c6ff;
+}
+
+#Banner {
+    background-image: url(images/finance-banner.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8em;
+    color: #0a0a0a;
+}
+
+#Banner > div {
+    position: relative;
+    margin: 4em;
+    bottom: 40px;
+}
+
+#Banner h2{
+    margin-bottom: 0 0 0 1em;
+    text-shadow: 0 0 20px #000000;
+}
+
+#Banner p {
+    margin: 0;
+    text-shadow: 0 0 20px #000000;
+}
+
+#Being\ Organized {
+    background-color: #425462;
+}
+
+#Being\ Organized ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#Being\ Organized > h2 {
+    margin: 1em;
+    font-size: 3em;
+    text-align: center;
+    color: #d5d5d5;
+}
+
+.card {
+    width: 400px;
+    margin: 1em 1.5em 1em 1.5em;
+    background-color: #d5d5d5;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    font-size: 2em;
+}
+
+.card h3, .card p {
+    margin: 1rem;
+}
+
+#Investing\ Tips {
+    background-image: url(images/Investing.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Investing\ Tips > div {
+    background-color: rgba(255, 255, 255, 0.44);
+    padding: 1.5em;
+    width: 75%;
+    max-width: 1200px;
+}
+
+#Investing\ Tips h2 {
+    font-size: 4em;
+    text-align: center;
+}
+
+#Investing\ Tips p {
+    font-size: 1.2em;
+}
+
+#Available\ Resources {
+    background-color: #425462;
+}
+
+#Available\ Resources ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#Available\ Resources > h2 {
+    margin: 1em;
+    font-size: 3em;
+    text-align: center;
+    color: #d5d5d5;
+}
+
+.column {
+    width: 300px;
+    margin: 1em 1.5em 1em 1.5em;
+    background-color: #d5d5d5;
+}
+
+.column img {
+    width: 100%;
+}
+
+.column h3 {
+    font-size: 2em;
+}
+
+.column h3, .column p {
+    margin: 1rem;
+}
+
+#Contact {
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Contact > form {
+    display: flex;
+}
+
+#Contact > form > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#Contact label {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 1em 0;
+}
+
+label span {
+    margin: 1em 0;
+}
+
+input, textarea {
+    border: 1px solid #000;
+    padding: 0.5em;
+    margin: 0 2em 0 0;
+    width: 20em;
+    font-size: 1em;
+}
+
+textarea {
+    height: 9.7em;
+    margin: 0;
+}
+
+form button {
+    width: auto;
+    font-size: 1em;
+    margin: 1em 0;
+    align-self: flex-end;
+    padding: 0.5em 1em;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
